@@ -100,6 +100,8 @@ Branch ka kaam khatam → master/main me merge chahiye?
 3) Push main: git push origin main
 
 
+----------------------------------------------------------------------------
+Git Pull origin main - if remote changes pull to local 
 
 
 
