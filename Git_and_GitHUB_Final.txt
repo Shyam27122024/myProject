@@ -1,0 +1,112 @@
+
+
+1) Create GITHUB project (During create project - Click on ReadME file button)
+
+2) Create a local Git (Project Space )- folder  Automation Project 
+3) in Automation Project ( Initiate Git ) - Git init 
+4) Git clone URL 
+5) After cloning URL - moves in project by using- >  cd (Actul Project name )  
+6) make changes in files or add new files 
+7) check git status 
+8) Git add . / git add * / git add filename.extention 
+9) Git commit -m " Message" 
+10) Git push origin main                        ( main branch existing during creation Repo ) same in local 
+
+git clone <url>
+git add .
+git commit -m "message"
+git push origin main
+git pull origin main
+
+
+
+
+Cmd output 
+Microsoft Windows [Version 10.0.22631.6060]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\narwade.ramchandra\OneDrive - Newgen\Desktop\GITTEST\c>git init
+
+Initialized empty Git repository in C:/Users/narwade.ramchandra/OneDrive - Newgen/Desktop/GITTEST/c/.git/
+
+C:\Users\narwade.ramchandra\OneDrive - Newgen\Desktop\GITTEST\c>git clone https://github.com/Shyam27122024/myProject.git
+
+Cloning into 'myProject'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+C:\Users\narwade.ramchandra\OneDrive - Newgen\Desktop\GITTEST\c>cd myProject
+
+C:\Users\narwade.ramchandra\OneDrive - Newgen\Desktop\GITTEST\c\myProject>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\narwade.ramchandra\OneDrive - Newgen\Desktop\GITTEST\c\myProject>git add .
+
+C:\Users\narwade.ramchandra\OneDrive - Newgen\Desktop\GITTEST\c\myProject>git commit -m "my first commit"
+[main f2452d3] my first commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\narwade.ramchandra\OneDrive - Newgen\Desktop\GITTEST\c\myProject>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 267 bytes | 133.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Shyam27122024/myProject.git
+   ebd6a55..f2452d3  main -> main
+
+
+
+GitHub → Clone → Add → Commit → Push → Pull
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create New branch --> 
+Step 1 — Current branch check karo  - git branch
+Step 2 — New branch create karo  - git branch master 
+Step 3 — New branch me switch karo - git checkout master   Or (git switch master)
+
+change files and add files -> Push 
+
+
+
+
+------------------------------------------------------------------------------
+
+Branch ka kaam khatam → master/main me merge chahiye?
+
+1) Pehle master/main par jao:  git checkout main    Or  git switch main
+2) Phir branch merge karo: git merge  master 
+3) Push main: git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
